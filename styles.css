@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0%;
+}
+
+body {
+    padding: 10px;
+    background: #bc9dca;
+}
+
+.sidenav {
+    position: absolute;
+    overflow: hidden;
+    background-color: #9a7bb7;
+    width: 20%;
+    height: 95%;
+}
+
+.sidenav a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #9a7bb7;
+    padding: 10px;
+}
+
+li {
+    display: block;
+    color: white;
+}
+
+li a {
+    display: block;
+}
+
+li a:hover {
+    background-color: #bc9dca;
+}
