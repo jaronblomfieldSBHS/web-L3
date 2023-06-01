@@ -2,10 +2,14 @@
     box-sizing: border-box;
     font-family: "Lucida Console", "Courier New", monospace;
     margin: 0%;
+    @font-face {
+        font-family: cooper;
+        src: url('CooperFiveOpti-Black.otf');
+    }
 }
 
 body {
-    padding: 10px;
+    padding: 1%;
     background: #bc9dca;
 }
 
@@ -19,18 +23,19 @@ body {
 
 .sidenav a {
     display: block;
-    padding: 10px;
+    padding: 5%;
     text-align: center;
     text-decoration: none;
     color: white;
-    font-size: large;
+    font-size: 1.5vw;
+    font-family: cooper;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     background-color: #9a7bb7;
-    padding: 10px;
+    padding: 5%;
 }
 
 li {
@@ -44,4 +49,11 @@ li a {
 
 li a:hover {
     background-color: #bc9dca;
+}
+
+h1 {
+    text-align: center;
+    padding: 10%;
+    font-family: cooper;
+    font-size: 2vw;
 }
