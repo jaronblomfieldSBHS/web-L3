@@ -20,21 +20,21 @@ body {
 }
 
 .sidenav {
-    /* position: absolute;
-    overflow: hidden; */
+    overflow: hidden;
     background-color: #9a7bb7;
 
     display: grid;
     grid-column: 1/2;
     grid-row: 1/3;
-    width: 20%;
+    width: 50%;
     height: 100%;
+    border-radius: 10px;
 }
 
 .sidenav a {
     display: block;
     color: white;
-    padding: 10px;
+    padding: 10%;
     text-decoration: none;
     text-align: center;
     font-family: cooper;
@@ -62,11 +62,12 @@ li a:hover {
 }
 
 .sidenav h1 {
+    display: block;
+    color: white;
+    padding: 10%;
     text-align: center;
-    padding: 10px;
     font-family: cooper;
-    font-size: 2.4vw;
-    margin-bottom: 20%;
+    font-size: 2vw;
 }
 
 .sidenav img {
@@ -75,36 +76,22 @@ li a:hover {
     width: 50%;
 }
 
-.homecontainer {
+.homecontainers {
     display: grid;
-    background-color: #9a7bb7;
-    padding: 10px;
     grid-column: 2/4;
 
     width: 100%;
     height: auto;
 }
 
-.homecontainer p {
+.textboxes p {
     color: white;
     font-family: cooper;
     float: right;
-}
-
-.homecontainer2 {
-    display: grid;
     background-color: #9a7bb7;
     padding: 10px;
-    grid-column: 2/4;
-
-    width: 100%;
-    height: auto;
-}
-
-.homecontainer2 p {
-    color: white;
-    font-family: cooper;
-    float: right;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
