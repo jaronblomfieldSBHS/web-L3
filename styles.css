@@ -12,12 +12,13 @@
 body {
     background-color: #bc9dca;
     /* display: grid;
-    grid-template-columns: 20% 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px; */
     padding: 10px;
     width: 100vw;
     height: 100vh;
+    position: fixed;
 }
 
 .sidenav {
@@ -69,7 +70,7 @@ body {
 .sidenav img {
     max-width: 200px;
     width: 100%;
-    height: 10px;
+    height: auto;
 }
 
 div.content {
@@ -79,72 +80,64 @@ div.content {
 }
 
 .homecontainers {
-    display: grid;
+    /* display: grid;
     grid-column: 2/4;
-    grid-row: 1/3;
-    background-color: #9a7bb7;
-    border-radius: 10px;
+    grid-row: auto; */
+    margin: 10px;
 }
 
 .homecontainers p {
-    overflow: hidden;
-    background-color: #bc9dca;
     color: white;
-
     font-family: cooper;
-    font-size: 100%;
-    padding: 5%;
-    margin: 1%;
+    text-align: justify;
+
+    padding: 10px;
+    background-color: #bc9dca;
+    border: 10px solid #9a7bb7;
     border-radius: 10px;
 }
 
-/* .aboutcontainer1 {
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1/3;
-    background-color: #9a7bb7;
-    border-radius: 10px;
-} */
+.aboutcontainer1 {
+    margin: 10px;
+}
 
-/* .aboutcontainer1 p {
-    background-color: #bc9dca;
+.aboutcontainer1 p {
     color: white;
-
     font-family: cooper;
-    font-size: 100%;
-    padding: 5%;
-    margin: 3%;
-    border-radius: 10px;
-} */
+    text-align: justify;
 
-/* .aboutcontainer2 {
-    display: grid;
-    grid-column: 3/4;
-    grid-row: 1/3;
-    background-color: #9a7bb7;
-    border-radius: 10px;
-} */
-
-/* .aboutcontainer2 p {
-    overflow: hidden;
+    padding: 10px;
     background-color: #bc9dca;
+    border: 10px solid #9a7bb7;
+    border-radius: 10px;
+}
+
+.aboutcontainer2 {
+    margin: 10px;
+    border: 10px solid #9a7bb7;
+    border-radius: 10px;
+}
+
+.aboutcontainer2 p {
     color: white;
-
     font-family: cooper;
-    font-size: 100%;
-    padding: 5%;
-    margin: 3%;
-    border-radius: 10px;
-} */
+    text-align: justify;
 
-/* .aboutcontainer2 img {
-    width: 90%;
-    height: 90%;
-    border: solid 10px #bc9dca;
+    padding: 10px;
+    background-color: #bc9dca;
+}
+
+.aboutcontainer2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    height: auto;
+
+    border: 10px solid #9a7bb7;
     border-radius: 10px;
-    align-self: center;
-    justify-self: center;
-} */
+}
 
 /* .gallerycontainer {
     display: grid;
@@ -215,6 +208,6 @@ div.content {
 
     .sidenav img {
         max-width: 200px;
-        width: 20%;
+        width: 50%;
     }
 }
